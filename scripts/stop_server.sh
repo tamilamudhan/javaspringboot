@@ -1,1 +1,2 @@
-pkill -f 'java -war'
+#!/bin/bash
+pkill -f 'java -jar'
