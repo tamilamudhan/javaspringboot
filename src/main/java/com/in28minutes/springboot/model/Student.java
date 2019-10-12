@@ -2,6 +2,7 @@ package com.in28minutes.springboot.model;
 
 import java.util.List;
 
+
 public class Student {
 	private String id;
 	private String name;
