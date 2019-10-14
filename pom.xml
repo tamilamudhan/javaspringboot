@@ -57,6 +57,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+      <groupId>com.foobar.templates</groupId>
+      <artifactId>maventemplate-ear</artifactId>
+      <version>${distversion}</version>
+      <type>ear</type>
+    </dependency>
 	</dependencies>
 
 	<build>
@@ -85,6 +92,11 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+		
+		<repository>
+      <id>project</id>
+      <url>http://54.208.119.120:8081/repository/maven/</url>
+    </repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -104,5 +116,10 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
+		
+		<pluginRepository>
+      <id>project</id>
+      <url>http://54.208.119.120:8081/repository/maven/</url>
+    </pluginRepository>
 	</pluginRepositories>
 </project>
