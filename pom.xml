@@ -59,10 +59,7 @@
 		</dependency>
 		
 		<dependency>
-      <groupId>com.foobar.templates</groupId>
-      <artifactId>maventemplate-ear</artifactId>
-      <version>${distversion}</version>
-      <type>ear</type>
+     
     </dependency>
 	</dependencies>
 
