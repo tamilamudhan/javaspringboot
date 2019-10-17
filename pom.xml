@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.0.RELEASE</version>
-		<relativePath /> <!-- lookup parent repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -57,10 +57,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-     
-    </dependency>
 	</dependencies>
 
 	<build>
@@ -69,7 +65,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
 			<plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
@@ -90,6 +85,7 @@
                 </execution>
             </executions>
         </plugin>
+			
 		</plugins>
 	</build>
 
@@ -110,11 +106,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		
-		<repository>
-      <id>project</id>
-      <url>http://54.208.119.120:8081/repository/maven/</url>
-    </repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -134,10 +125,5 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
-		
-		<pluginRepository>
-      <id>project</id>
-      <url>http://54.208.119.120:8081/repository/maven/</url>
-    </pluginRepository>
 	</pluginRepositories>
 </project>
